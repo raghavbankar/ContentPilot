@@ -6,21 +6,21 @@
 ContentPilot is an AI-first automation platform designed for business organizations and independent content creators. It turns a single topic input into trending topic discovery, niche selection, content idea generation, and SEO-aware output for posts, images, or video scripts.
 Independent creators and solo content entrepreneurs who need fast ideation, trend-driven content, and production support without a full marketing team.
 
-## 🚀 Vision
+##  Vision
 ContentPilot is built to help:
 - business teams stay visible on social media around ongoing issues and trends
 - brands create timely marketing content for campaigns and events
 - influencers and small-scale creators can  discover new ideas and scale content production
 - individual content entrepreneur can automate topic discovery, creative planning, and generation with minimal manual effort
 
-## 🎯 MVP Focus
+##  MVP Focus
 This MVP starts with the core automation flow:
 1. User enters a seed topic.
 2. The system discovers trending topics related to that seed.
 3. It surfaces top trending themes, niche angles, and fresh content ideas.
 4. It generates content tailored to the user’s chosen format and purpose.
 
-## 🌱 Scalable Automation Idea
+##  Scalable Automation Idea
 ContentPilot is designed to scale from a lightweight MVP into a fully autonomous content engine.
 - Users provide a single topic or keyword.
 - The pipeline finds related trending stories and top-performing themes.
@@ -77,11 +77,6 @@ pip install -r requirements.txt
 ```bash
 python src/main.py
 ```
-
-## 📝 Notes
-This project begins as an MVP with an emphasis on automated trend-driven content discovery. The long-term vision is a scalable content engine where the user only supplies a topic, and the platform delivers relevant ideas, formats, and publish-ready content.
-
----
 
 © 2026 ContentPilot . All rights reserved.
 
