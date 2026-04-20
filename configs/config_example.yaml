@@ -1,0 +1,26 @@
+# ContentPilot configuration
+api:
+  openai_api_key: "YOUR_OPENAI_API_KEY"
+  embedding_model: "sentence-transformers/all-MiniLM-L6-v2"
+  llm_model: "gpt-4o-mini"
+
+rag:
+  vector_store: "faiss"
+  vector_dim: 384
+  top_k: 5
+
+workflow:
+  trend_sources:
+    - twitter
+    - reddit
+    - google_trends
+  content_types:
+    - article
+    - social_post
+    - video_script
+    - image_prompt
+  seo_enabled: true
+
+models:
+  trend_scoring: "xgboost"
+  niche_clustering: "kmeans"
