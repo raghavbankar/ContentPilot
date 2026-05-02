@@ -56,11 +56,11 @@ ContentPilot is designed to scale from a lightweight MVP into a fully autonomous
 ## Tech Stack
 - Python 3.11+
 - LangChain
-- OpenAI or another LLM provider
-- Vector DB: FAISS / Chroma / Pinecone / Weaviate
+- OpenAI 
+- Vector DB: FAISS 
 - Embedding models: sentence-transformers / OpenAI embeddings
 - ML libraries: scikit-learn, pandas
-- Future app layer: FastAPI + Streamlit / Gradio
+- Future app layer: FastAPI + Streamlit
 
 ## Quick Start
 1. Create a virtual environment
